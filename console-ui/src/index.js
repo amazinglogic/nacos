@@ -43,6 +43,8 @@ import HistoryRollback from './pages/ConfigurationManagement/HistoryRollback';
 import ListeningToQuery from './pages/ConfigurationManagement/ListeningToQuery';
 import ConfigurationManagement from './pages/ConfigurationManagement/ConfigurationManagement';
 import ServiceList from './pages/ServiceManagement/ServiceList';
+import DubboApplication from './pages/ServiceManagement/DubboApplicaiton';
+import DubboServiceCount from './pages/ServiceManagement/DubboServiceCount';
 import ServiceDetail from './pages/ServiceManagement/ServiceDetail';
 import SubscriberList from './pages/ServiceManagement/SubscriberList';
 import ClusterNodeList from './pages/ClusterManagement/ClusterNodeList';
@@ -87,6 +89,8 @@ const MENU = [
   { path: '/listeningToQuery', component: ListeningToQuery },
   { path: '/configurationManagement', component: ConfigurationManagement },
   { path: '/serviceManagement', component: ServiceList },
+  { path: '/dubboApplication', component: DubboApplication },
+  { path: '/dubboServiceCount', component: DubboServiceCount },
   { path: '/serviceDetail', component: ServiceDetail },
   { path: '/subscriberList', component: SubscriberList },
   { path: '/clusterManagement', component: ClusterNodeList },

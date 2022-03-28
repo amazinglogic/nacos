@@ -71,6 +71,14 @@ export default function(model) {
           key: 'subscriberList',
           url: '/subscriberList',
         },
+        {
+          key: 'dubboApplication',
+          url: '/dubboApplication',
+        },
+        {
+          key: 'dubboServiceCount',
+          url: '/dubboServiceCount',
+        },
       ],
     },
     globalAdmin ? authorityControlMenu : undefined,
